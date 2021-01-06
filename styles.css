@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    height: 300px;
+    background-color: rgb(97, 174, 221);
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.titulo{
+    display: block;
+    font-size: 50px;
+    font-weight: 700;
+ }
+
+.subtitulo{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.navegador{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.enlaces{
+    display: flex;
+
+}
+ul, li{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.alone{
+    position: relative;
+    top: 0%; left: 440%;
+    
+
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    
+}
+
+aside{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    justify-content: space-around;
+    flex: 1 1 auto;
+    
+}
+
+.img-left{
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+}
+
+main{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    justify-content: space-around;
+    flex: 2 1 auto;
+
+}
+
+.img-main{
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+footer{
+    width: auto;
+    height: 100px;
+    background-color: black;
+}
+
+@media (max-width: 1020px) {
+	.body {
+        flex-direction: column;
+    }
+}
+@media (max-width: 1490px) {
+	.alone{
+        position: relative;
+        top: 0%; left: 0%;
+    }
+}
