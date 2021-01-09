@@ -114,10 +114,26 @@ main{
 }
 
 footer{
-    width: auto;
-    height: 100px;
-    background-color: black;
+    height: 20%;
+    background-color: #04080F;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.rrss {
+    font-size: xx-large;
+    color: white;
+    padding-right: 1em;
+}
+footer p{
+    color:whitesmoke;
+} 
+.footer-redes {
+    padding:1em;
+
+}
+
 
 @media (max-width: 1020px) {
 	.body {
